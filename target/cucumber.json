@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "White Background Change;",
+        "description": "",
+        "id": "automation-practical-exam;white-background-change;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4299900000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"Set SkyWhite Background\" button exists;",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyWhite Background",
+                  "offset": 1
+                }
+              ],
+              "location": "StepDefinition.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3174526700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the button;",
+            "match": {
+              "location": "StepDefinition.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64220600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the background color will change to white",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practical Exam",
+    "description": "",
+    "id": "automation-practical-exam",
+    "keyword": "Feature",
+    "uri": "src/test/java/feature/WhiteBackground.feature"
+  }
+]
